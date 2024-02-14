@@ -1,0 +1,19 @@
+.reset-button {
+    background-color:rgb(233, 241, 255);;
+    color: rgb(31, 54, 86);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 30px auto;
+    display: block;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+}
+
+.reset-button:active {
+    background-color: rgb(31, 54, 86);
+    color: rgb(233, 241, 255);
+    box-shadow: 1px 1px 10px;
+}

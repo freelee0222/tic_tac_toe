@@ -1,0 +1,23 @@
+.auto-button {
+    background-color:rgb(173, 184, 202);;
+    color: rgb(31, 54, 86);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.auto-button:active {
+    background-color: rgb(31, 54, 86);
+    color: rgb(233, 241, 255);
+    box-shadow: 1px 1px 10px;
+}
+
+small {
+    margin-left: 10px;
+}

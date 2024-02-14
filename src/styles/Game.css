@@ -1,0 +1,42 @@
+.game {
+	background: radial-gradient(rgb(58, 106, 174),  rgb(19, 21, 56)) ;
+    border: solid 3px whitesmoke;
+	width: 500px;
+	border-radius: 20px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.game-board {
+	margin: 25px auto;
+}
+
+.game-title {
+	font-family: fantasy;
+	font-size: 64px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 32px;
+}
+
+.game-info {
+	color: rgb(31, 54, 86);
+	margin-top: 28px;
+}
+
+.game-status {
+	font-size: 48px;
+	font-weight: 700;
+	width: 75%;
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+	background-color: rgb(233, 241, 255);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+ol {
+     color: whitesmoke;
+}

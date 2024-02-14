@@ -1,0 +1,22 @@
+.square {
+    background: rgb(233, 241, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(31, 54, 86);
+    font-family: fantasy;
+    font-size: 96px;
+    font-weight:800;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: rgb(234, 236, 247);
+}
+
+.square:active {
+    background-color: rgb(156, 164, 208);
+}
