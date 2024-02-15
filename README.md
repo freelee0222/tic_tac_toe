@@ -1,6 +1,14 @@
 # Tic Tac Toe
 
-Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a game for two players, X and O, who take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+## Hi there! This is our Tic-Tac-Toe game. This is for anyone that likes games. We're very excited to have you here. Tic-Tac-Toe is a really fun game, and we've made it so you can play it on your computer.
+
+It's a game where you put X's and O's in a box. You have to try to get three of your marks in a line. It might sound easy, but it's actually pretty hard!
+
+Whether you've played before or you're totally new, we've made this game for everyone to enjoy. So, let's jump in and have some fun playing Tic-Tac-Toe together!
+We hope you have fun!
+
+***
+Tic-tac-toe is a game for two people, X and O, who take turns marking the spaces in a 3x3 box of boxes. The player who is the first to place three of their marks in a line, either up and down, or side to side, beats the other player.
 
 >*The following example game is won by the first player, **X***:
 <div style="text-align: center;">
@@ -10,13 +18,13 @@ Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a game for two p
 
 ***
 
-## Installation:
+## Set up:
 
- Install Dependencies
+Get what you need for the game to work.
 ```bash
 npm install
 ``` 
-Start Server
+Start the server
 ```bash
 npm start
 ```
@@ -27,33 +35,32 @@ Go to http://localhost:3000 to play Tic Tac Toe.
 
 ## How to Play
 
-* Simply click a square to select it. 
-* Click "Auto Move" to automate the next move.
-* No square may be selected twice.
-* Three in a row wins.
-* When there is a winner or a tie, the game is over.
+* Simply click a box to pick it. 
+* Click "Auto Move" to have the computer make the next move.
+* No box may be picked two times.
+* Three in a line, and it's over.
 * Click "Reset" to play again.
 
-### Strategy
+### The Plan
 
-A player can play a perfect game of tic-tac-toe (to win or, at least, draw) if they choose the first available move from the following list
+A player can play a perfect game of tic-tac-toe (to beat the other player or, at least, tie) if they pick the first move they can do from the following:
 
-* **Win**: If the player has two in a row, they can place a third to get three in a row.
+* **Beat the other player**: Place your mark to put three marks in a line.
 
-* **Block**: If the opponent has two in a row, the player must play the third themselves to block the opponent.
-* **Fork**: Create an opportunity where the player has two threats to win (two non-blocked lines of 2).
+* **Block**: Stop the other player from beating you by placing your mark.
 
-* **Blocking an opponent's fork**:
-    * **Option 1**: The player should create two in a row to force the opponent into defending, as long as it doesn't result in them creating a fork. For example, if "X" has a corner, "O" has the center, and "X" has the opposite corner as well, "O" must not play a corner in order to win. (Playing a corner in this scenario creates a fork for "X" to win.)
-    * **Option 2**: If there is a configuration where the opponent can fork, the player should block that fork.
-* **Center**: A player marks the center. (If it is the first move of the game, playing on a corner gives "O" more opportunities to make a mistake and may therefore be the better choice; however, it makes no difference between perfect players.)
+* **Two Chances**: Set up two chances to beat the other player.
 
-* **Opposite corner**: If the opponent is in the corner, the player plays the opposite corner.
+* **Blocking the other player trying two chances**: Stop the other player from setting up a move that will beat you.
 
-* **Empty corner**: The player plays in a corner square.
+* **Middle**: If it has not been picked yet, place your mark in the middle.
 
-* **Empty side**: The player plays in a middle square on any of the 4 sides.
+* **Other corner**: If the other player is in the corner, the player plays the other corner.
 
-## License
+* **Empty corner**: Place your mark in a corner box.
 
-  [TLM](LICENSE)
+* **Empty side**: Place your mark in a middle box on any of the four sides.
+
+***
+
+*Check out this <a href="https://www.instructables.com/Winning-tic-tac-toe-strategies/">other plan</a> to learn more*
